@@ -2,7 +2,7 @@ import React from 'react';
 import heroImg from '../assets/hero.png';
 
 const socialLinks = [
-  { label: 'GitHub', href: 'https://github.com/crouns' },
+  { label: 'GitHub', href: 'https://github.com/crouns1' },
   { label: 'LinkedIn', href: 'https://linkedin.com/in/crouns' },
   { label: 'Email', href: 'mailto:jait-chd@1337.student.ma' },
 ];
