@@ -1,9 +1,10 @@
 import React from 'react';
+import { BackendStatus } from '../components/BackendStatus';
 
 const socialLinks = [
   { label: 'GitHub', href: 'https://github.com/crouns1' },
   { label: 'LinkedIn', href: 'https://linkedin.com/in/crouns' },
-  { label: 'Email', href: 'mailto:jait-chd.1337@student.ma' },
+  { label: 'Email', href: 'mailto:jait-chd.student@1337.com' },
 ];
 
 const FooterSection: React.FC = () => {
@@ -18,8 +19,9 @@ const FooterSection: React.FC = () => {
           ))}
         </div>
         <p className="text-sm text-gray-400">
-          © {new Date().getFullYear()} Crouns : All rights reserved.
+          © {new Date().getFullYear()} Your Name. All rights reserved.
         </p>
+        <BackendStatus />
       </div>
     </footer>
   );
