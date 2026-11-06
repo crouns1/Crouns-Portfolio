@@ -14,9 +14,6 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
 
       <main className="flex-1 p-4">{children}</main>
 
-      <footer className="bg-gray-900 text-white p-4 text-center text-sm">
-        © 2026 crouns. All rights reserved.
-      </footer>
     </div>
   );
 };
